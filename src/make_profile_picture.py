@@ -31,6 +31,6 @@ def create_thumbnail(image, thumbnail_size=None):
     return resized_image
     
 
-im = open_image("test.jpg")
-create_thumbnail(im,256).show()
-create_thumbnail(im).show()
+# im = open_image("test.jpg")
+# create_thumbnail(im,256).show()
+# create_thumbnail(im).show()
